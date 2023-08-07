@@ -7,8 +7,8 @@ function Navbar() {
   return (
     <nav>
       <IoEarth />
-      <p className=" font-bold">Countries Explorer</p>
-      <div className="flex">
+      <p>Explore Countries!</p>
+      <div>
         <BiMicrophone />
         <AiFillSetting />
       </div>
