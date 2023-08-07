@@ -1,0 +1,18 @@
+import React from 'react';
+import { AiFillSetting } from 'react-icons/ai';
+import { BiMicrophone } from 'react-icons/bi';
+import { IoEarth } from 'react-icons/io5';
+
+function Navbar() {
+  return (
+    <nav>
+      <IoEarth />
+      <p className=" font-bold">Countries Explorer</p>
+      <div className="flex">
+        <BiMicrophone />
+        <AiFillSetting />
+      </div>
+    </nav>
+  );
+}
+export default Navbar;

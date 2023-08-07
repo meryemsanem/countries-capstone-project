@@ -10,21 +10,20 @@ const initialState = {
   error: '',
 };
 
-const getData = (data) =>
-  data.map((countries) => ({
-    countryID: uuidv4(),
-    name: country.name.common,
-    officialName: country.name.official,
-    capital: country.capital,
-    language: country.languages,
-    region: country.region,
-    currency: country.currencies,
-    timezone: country.timezones,
-    continent: country.continents,
-    flag: country.flags.png,
-    area: country.area,
-    population: country.population,
-  }));
+const getData = (data) => data.map((country) => ({
+  countryID: uuidv4(),
+  name: country.name.common,
+  officialName: country.name.official,
+  capital: country.capital,
+  language: country.languages,
+  region: country.region,
+  currency: country.currencies,
+  timezone: country.timezones,
+  continent: country.continents,
+  flag: country.flags.png,
+  area: country.area,
+  population: country.population,
+}));
 
 export const fetchCountries = createAsyncThunk(
   'countries/fetchCountries',
@@ -36,7 +35,7 @@ export const fetchCountries = createAsyncThunk(
     } catch (error) {
       throw Error(error);
     }
-  }
+  },
 );
 
 export const countriesSlice = createSlice({
