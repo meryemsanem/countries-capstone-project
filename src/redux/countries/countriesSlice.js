@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 const url = 'https://restcountries.com/v3.1/all';
 
 const initialState = {
-  countries: [],
+  data: [],
   loading: false,
   error: '',
 };
@@ -51,7 +51,7 @@ export const countriesSlice = createSlice({
       .addCase(fetchCountries.fulfilled, (state, action) => ({
         ...state,
         loading: false,
-        countries: action.payload,
+        data: action.payload,
       }))
       .addCase(fetchCountries.rejected, (state, action) => ({
         ...state,

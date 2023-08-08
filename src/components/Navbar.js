@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav>
       <IoEarth />
-      <p>Explore Countries!</p>
+      <p>Let&apos;s Explore Countries!</p>
       <div>
         <BiMicrophone />
         <AiFillSetting />
