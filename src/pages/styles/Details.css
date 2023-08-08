@@ -1,0 +1,55 @@
+.back-btn {
+  color: #0ca678;
+  border: none;
+  background-color: #96f2d7;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.container img {
+  width: 30%;
+  display: flex;
+  margin: 40px auto;
+}
+
+.container {
+  margin-inline: 10rem;
+  gap: 10rem;
+}
+
+.country-name-details,
+.country-details-off {
+  text-align: center;
+}
+
+.flex-container {
+  padding: 10px;
+  background-color: #96f2d7;
+  border-radius: 40px;
+  color: #087f50;
+  border: 1px solid #0ca678;
+}
+
+.details-country {
+  background-color: #0ca678;
+  height: 8rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+}
+
+.header {
+  text-align: center;
+  color: #96f2d7;
+  align-items: center;
+}
+
+.details-container {
+  background-color: #96f2d7;
+}
+
+.not-found {
+  text-align: center;
+  color: #087f50;
+}

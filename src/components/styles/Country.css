@@ -1,0 +1,20 @@
+.country-name {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+img {
+  width: 60%;
+}
+
+.card {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.details-link {
+  text-decoration: none;
+}

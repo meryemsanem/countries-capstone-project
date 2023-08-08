@@ -2,12 +2,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
+import './styles/Country.css';
 
 function Country({ country }) {
   const { name, flag } = country;
   return (
     <>
-      <div className="countries-container">
+      <div className="card">
         <NavLink
           to={`/details/${name}`}
           className="details-link"
