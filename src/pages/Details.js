@@ -41,19 +41,33 @@ function Details() {
         <img src={countryDetails.flag} alt={countryDetails.name} />
         <h2 className="country-name-details">{countryDetails.name}</h2>
         <h3 className="country-details-off">
-          Official Name: {countryDetails.officialName}
+          Official Name:
+          {' '}
+          {countryDetails.officialName}
         </h3>
         <h4 className="country-details">
-          Capital City: {countryDetails.capital}
+          Capital City:
+          {' '}
+          {countryDetails.capital}
         </h4>
         <h4 className="country-details">
-          Continent: {countryDetails.continent}
+          Continent:
+          {' '}
+          {countryDetails.continent}
         </h4>
         <h4 className="country-details">
-          Population: {countryDetails.population}
+          Population:
+          {' '}
+          {countryDetails.population}
         </h4>
-        <h4 className="country-details">Area: {countryDetails.area}</h4>
-        <h4 className="country-details">Timezone: {countryDetails.timezone[0]} </h4>
+        <h4 className="country-details">
+          Area:
+          {countryDetails.area}
+        </h4>
+        <h4 className="country-details">
+          Timezone:
+          {countryDetails.timezone[0]}
+        </h4>
       </div>
     </div>
   );
