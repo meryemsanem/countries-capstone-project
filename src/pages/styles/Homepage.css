@@ -3,14 +3,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #0ca678;
+  color: #355087;
   font-size: 24px;
 }
 
 .search {
   display: flex;
   padding: 20px;
-  background-color: #0ca678;
+  background-color: #355087;
   justify-content: space-evenly;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .countries-container > :nth-child(even) {
-  background-color: #38d9a9;
+  background-color: #4468b0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .countries-container > :nth-child(odd) {
-  background-color: #0ca678;
+  background-color: #355087;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,5 +45,5 @@ button {
   border: none;
   padding: 8px;
   border-radius: 8px;
-  color: #087f5b;
+  color: #4468b0;
 }

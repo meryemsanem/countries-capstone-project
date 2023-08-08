@@ -1,7 +1,7 @@
 .back-btn {
-  color: #0ca678;
+  color: white;
   border: none;
-  background-color: #96f2d7;
+  background-color: #4468b0;
   font-size: 30px;
   cursor: pointer;
 }
@@ -24,14 +24,14 @@
 
 .flex-container {
   padding: 10px;
-  background-color: #96f2d7;
+  background-color: #4468b0;
   border-radius: 40px;
-  color: #087f50;
-  border: 1px solid #0ca678;
+  color: white;
+  border: 1px solid 4468b0;
 }
 
 .details-country {
-  background-color: #0ca678;
+  background-color: #355087;
   height: 8rem;
   align-items: center;
   display: flex;
@@ -41,15 +41,15 @@
 
 .header {
   text-align: center;
-  color: #96f2d7;
+  color: white;
   align-items: center;
 }
 
 .details-container {
-  background-color: #96f2d7;
+  background-color: #355087;
 }
 
 .not-found {
   text-align: center;
-  color: #087f50;
+  color: #355087;
 }
