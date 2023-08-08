@@ -16,7 +16,7 @@ function Countries() {
     setSearch(e.target.value);
   };
 
-  const searchCountries = data.filter((country) =>
+  const searchCountries = data.filter((country) => 
     country.name.toLowerCase().includes(search.toLowerCase()));
 
   if (loading) {
