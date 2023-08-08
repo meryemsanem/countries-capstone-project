@@ -33,7 +33,7 @@ describe('Details Component', () => {
         <BrowserRouter>
           <Details />
         </BrowserRouter>
-      </Provider>
+      </Provider>,
     );
     expect(asFragment()).toMatchSnapshot();
   });

@@ -14,7 +14,7 @@ describe('Country Component', () => {
     const { asFragment } = render(
       <BrowserRouter>
         <Country country={mockCountry} />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
     expect(asFragment()).toMatchSnapshot();
   });

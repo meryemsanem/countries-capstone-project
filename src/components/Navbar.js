@@ -10,8 +10,10 @@ function Navbar() {
       <IoEarth className="logo" />
       <p>Let&apos;s Explore Countries!</p>
       <div className="buttons">
-        <BiMicrophone data-testid="microphone-button" />{' '}
-        <AiFillSetting data-testid="settings-button" />{' '}
+        <BiMicrophone data-testid="microphone-button" />
+        {' '}
+        <AiFillSetting data-testid="settings-button" />
+        {' '}
       </div>
     </nav>
   );
