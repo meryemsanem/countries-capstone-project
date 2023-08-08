@@ -4,9 +4,15 @@ nav {
   justify-content: space-around;
   font-size: 24px;
   background-color: #96f2d7;
+  color: #087f5b;
+  font-weight: bold;
 }
 
 .buttons {
   display: flex;
   gap: 0.2rem;
+}
+
+.logo {
+  font-size: 50px;
 }

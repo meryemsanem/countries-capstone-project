@@ -1,0 +1,35 @@
+.loading,
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0ca678;
+  font-size: 24px;
+}
+
+.search {
+  display: flex;
+  padding: 20px;
+  background-color: #0ca678;
+}
+
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
+  width: 100%;
+}
+
+.countries-container > :nth-child(even) {
+  background-color: #38d9a9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countries-container > :nth-child(odd) {
+  background-color: #0ca678;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

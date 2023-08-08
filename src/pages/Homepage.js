@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchCountries } from '../redux/countries/countriesSlice';
 import Country from '../components/Country';
+import './styles/Homepage.css';
 
 function Countries() {
   const { data, loading, error } = useSelector((state) => state.country);
@@ -21,20 +22,20 @@ function Countries() {
   if (loading) {
     return (
       <div>
-        <h2>Loading...</h2>
+        <h2 className="loading">Loading...</h2>
       </div>
     );
   }
   if (error) {
     return (
       <div>
-        <h2>{error}</h2>
+        <h2 className="error">{error}</h2>
       </div>
     );
   }
   return (
     <>
-      <div className="container">
+      <div className="main-container">
         <div className="countries">
           <div className="search">
             <input

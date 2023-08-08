@@ -7,7 +7,7 @@ import './styles/Navbar.css';
 function Navbar() {
   return (
     <nav>
-      <IoEarth />
+      <IoEarth className="logo" />
       <p>Let&apos;s Explore Countries!</p>
       <div className="buttons">
         <BiMicrophone />
