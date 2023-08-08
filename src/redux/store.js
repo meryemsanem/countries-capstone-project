@@ -1,9 +1,10 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { configureStore } from '@reduxjs/toolkit';
 import countriesReducer from './countries/countriesSlice';
 
 const store = configureStore({
   reducer: {
-    countries: countriesReducer,
+    country: countriesReducer,
   },
 });
 
