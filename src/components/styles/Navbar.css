@@ -1,0 +1,12 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  background-color: #96f2d7;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.2rem;
+}
