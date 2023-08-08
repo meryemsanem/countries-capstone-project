@@ -10,10 +10,13 @@ function Navbar() {
       <IoEarth className="logo" />
       <p>Let&apos;s Explore Countries!</p>
       <div className="buttons">
-        <BiMicrophone />
-        <AiFillSetting />
+        <BiMicrophone data-testid="microphone-button" />
+        {' '}
+        <AiFillSetting data-testid="settings-button" />
+        {' '}
       </div>
     </nav>
   );
 }
+
 export default Navbar;
