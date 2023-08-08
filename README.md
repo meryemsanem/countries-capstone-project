@@ -31,7 +31,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-#  🌎 Explore The Countries <a name="#about-project"></a>
+# 🌎 Explore The Countries <a name="#about-project"></a>
 
 **"Explore The Countries"** is a web application built using React and Redux that displays information about different countries. It consists of the following main pages: **Homepage and Details.**
 The project provides a user-friendly interface for users to search, sort, and view details about different countries. It makes use of modern React and Redux practices to manage state and fetch data from an external API.
@@ -62,7 +62,15 @@ The project provides a user-friendly interface for users to search, sort, and vi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://explore-the-countries.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- PRESENTATION -->
+
+##  Presentation <a name="presentation"></a>
+
+- [Presentation Link ](https://www.loom.com/share/42cf532992ba47b5b710d64fc7b040f2?sid=8009f0bb-5c7f-41aa-8a06-43efb081101c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,10 +117,13 @@ npm start
 ```
 
 ### To track CSS linter errors, run:
+
 ```bash
 npx stylelint "**/*.{css,scss}"
 ```
+
 - To track JavaScript linter errors, run:
+
 ```bash
 npx eslint "**/*.{js,jsx}"
 ```
@@ -148,7 +159,6 @@ npm test
 - GitHub: [@meryemsanem](https://github.com/meryemsanem)
 - LinkedIn: [@meryemsanem](https://www.linkedin.com/in/meryemsanemkucukbayram/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -166,7 +176,7 @@ npm test
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/meryemsanem/react-capstone/issues).
+Feel free to check the [issues page](https://github.com/meryemsanem/countries-capstone-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
