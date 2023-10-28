@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  background-color: #4468b0;
+  color: rgb(243, 240, 240);
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.logo {
+  font-size: 50px;
+}

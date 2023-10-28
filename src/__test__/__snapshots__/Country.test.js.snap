@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country Component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <a
+      class="details-link"
+      data-testid="details-link"
+      href="/details/Test Country"
+    >
+      <div
+        class="image"
+      >
+        <img
+          alt="country"
+          src="test-flag-url"
+        />
+      </div>
+      <h1
+        class="country-name"
+      >
+        Test Country
+      </h1>
+    </a>
+  </div>
+</DocumentFragment>
+`;
